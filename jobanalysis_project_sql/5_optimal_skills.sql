@@ -1,13 +1,12 @@
 /*
-Questions: What are the most optimal skills to learn for a data analyst in USA?
-- Identify skills in high demand and associated with the ave
+Questions: What are the most optimal skills to learn for a data analyst in the USA (Skills that are high in demand as well as high in pay? 
+- Identify skills in high demand and associated with the high average salaries for data analysts in the USA
 - Concentrates on remote positions with specified salaries
-- Solution? 
-    Targets skills that offer job securiety (high demand) 
-    offering strategic insights for career deveopment in the data field
+- Solution? Targets skills that offer job security (high demand) and financial benefits (high pay), 
+  offering strategic insights for career development in the data field
 
 */
-
+-- Query to find the optimal skills for data analysts in the USA based on demand and average salary
 WITH skills_demand AS (
     SELECT 
         skills_job_dim.skill_id,

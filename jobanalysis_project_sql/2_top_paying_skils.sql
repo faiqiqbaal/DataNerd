@@ -1,8 +1,9 @@
 /* 
-What are the top-paying data analyst jobs in the United States?
-- Identify the top 10 highest paying data analyst jobs in the United States and are remote.
-- Focuses on job postings with specified salaries (remove null values).
-- The results should include the job title, company name, location, salary, and job description.
+Question: What skills are required for the top-paying data analyst jobs in the United States?
+- Use the top 10 highest paying data analyst jobs as a reference.
+- Add the specific skills required for these positions.
+- Soultions: It provides a detailed look at which high-paying jobs demand certain skills, 
+helping job seekers understand the skill sets needed for top-tier positions.
 */
 
 WITH top_paying_jobs AS (
@@ -21,7 +22,6 @@ WITH top_paying_jobs AS (
         salary_year_avg DESC
     LIMIT 10
 )
-
 SELECT 
     DISTINCT skills_dim.skills,
     top_paying_jobs.job_id,

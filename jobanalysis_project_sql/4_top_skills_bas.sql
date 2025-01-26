@@ -1,10 +1,12 @@
-/* WHat are the top skills based on salary?
-- Look at the average salary associated with each skill for Data Analyst positions in USA
-- Forcuses on roles with specified salaries, regardless of location
-- Solution? It will reveal how different skills can impact salary levels for Data Analysts and helps identify the most paying skills that will lead to higher salaries
+/*
+Question: What are the top skills based on salary?
+- Look at the average salary associated with each skill for Data Analyst positions in the USA 
+- Focuses on roles with specified salaries, regardless of location 
+- Solution? It will reveal how different skills can impact salary levels 
+  for Data Analysts and help identify the highest-paying skills that will lead to higher salaries 
 */
 
-
+-- Query to find the top skills based on salary for Data Analysts in the USA
 SELECT 
     skills as skill_in_demand,
     ROUND(Avg(salary_year_avg), 0) as avg_salary

@@ -3,8 +3,8 @@ Question: WHat are the most in-demand skills for the data analysts in USA?
 - join job posstings to inner join table similar to query 2
 - identify the top 5 in-demand skills for data analysts
 - Forcus on all job postings
-- Retrieves the top 5 skills with the highest demand in the job market
-- Provide insights into the most valuable skills for job seekers
+- Solution? Retrieves the top 5 skills with the highest demand in the job market
+  Provide insights into the most valuable skills for job seekers
 */
 
 
